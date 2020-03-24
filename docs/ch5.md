@@ -26,19 +26,19 @@ In order to cover all the bases, CSS defines five generic font families:
 
 These fonts are proportional and have serifs. A font is proportional if all characters in the font have different widths due to their various sizes. For example, a lowercase `i` and a lowercase `m` are different widths. (This book’s paragraph font is proportional, for example.) Serifs are the decorations on the ends of strokes within each character, such as little lines at the top and bottom of a lowercase `l,` or at the bottom of each leg of an uppercase `A`. Examples of serif fonts are Times, Georgia, and New Century Schoolbook.
 
-> 这些字体是成比例的，并且有序列化。如果字体中的所有字符由于大小不同而具有不同的宽度，则字体是成比例的。例如，小写的“i”和小写的“m”是不同的宽度。(比如，这本书的段落字体是成比例的。)Serifs 是每个字符笔画末端的装饰，比如小写“l”的顶部和底部的小线条，或者大写“a”的每条腿的底部。衬线字体的例子有 Times、Georgia 和 New Century 教科书。
+> 这些字体是成比例的，并且有序列化。如果字体中的所有字符由于大小不同而具有不同的宽度，则字体是成比例的。例如，小写的“i”和小写的“m”是不同的宽度。(比如，这本书的段落字体是成比例的。)衬线是每个字符笔画末端的装饰，比如小写“l”的顶部和底部的小线条，或者大写“a”的每条腿的底部。衬线字体的例子有 Times、Georgia 和 New Century 教科书。
 
 `Sans-serif fonts`
 
 These fonts are proportional and do not have serifs. Examples of `sans-serif` fonts are Helvetica, Geneva, Verdana, Arial, and Univers.
 
-> 这些字体是成比例的，没有 serifs。“无衬线字体”的例子有 Helvetica、Geneva、Verdana、Arial 和 Univers。
+> 这些字体是成比例的，没有衬线。“无衬线字体”的例子有 Helvetica、Geneva、Verdana、Arial 和 Univers。
 
 `Monospace fonts`
 
 Monospace fonts are not proportional. These generally are used for displaying programmatic code or tabular data. In these fonts, each character uses up the same amount of horizontal space as all the others; thus, a lowercase `i` takes up the same horizontal space as a lowercase `m`, even though their actual letterforms may have different widths. These fonts may or may not have serifs. If a font has uniform character widths, it is classified as monospace, regardless of the presence of serifs. Examples of monospace fonts are Courier, Courier New, Consolas, and Andale Mono.
 
-> 单色字体不成比例。这些通常用于显示编程代码或表格数据。在这些字体中，每个字符占用的水平空间与其他字体相同;因此，小写的“i”与小写的“m”占据相同的水平空间，尽管它们的实际字母形式可能具有不同的宽度。这些字体可能有，也可能没有。如果字体具有统一的字符宽度，则将其归类为 monospace，而不管是否存在 serifs。monospace 字体的例子有 Courier、Courier New、Consolas 和 Andale Mono。
+> 等宽字体不成比例。这些通常用于显示编程代码或表格数据。在这些字体中，每个字符占用的水平空间与其他字体相同;因此，小写的“i”与小写的“m”占据相同的水平空间，尽管它们的实际字母形式可能具有不同的宽度。这些字体可能有，也可能没有。如果字体具有统一的字符宽度，则将其归类为 monospace，而不管是否存在衬线。monospace 字体的例子有 Courier、Courier New、Consolas 和 Andale Mono。
 
 `Cursive fonts`
 
