@@ -788,9 +788,9 @@ a:active {
 }
 ```
 
-Thanks to the information in this chapter, you now know that the specificity of all of these selectors is the same: `0,0,1,0`. Because they all have the same explicit weight, origin, and specificity, the last one that matches an element will win out. An unvisited link that is being “clicked” or otherwise activated, such as via the keyboard, is matched by four of the rules—`:link`, `Lfocus`, `:hover`, and `:active`—so the last one of those four will win out. Given the LVFHA ordering, `:active` will win, which is likely what the author intended.
+Thanks to the information in this chapter, you now know that the specificity of all of these selectors is the same: `0,0,1,0`. Because they all have the same explicit weight, origin, and specificity, the last one that matches an element will win out. An unvisited link that is being “clicked” or otherwise activated, such as via the keyboard, is matched by four of the rules—`:link`, `:focus`, `:hover`, and `:active`—so the last one of those four will win out. Given the LVFHA ordering, `:active` will win, which is likely what the author intended.
 
-> 由于本章中的信息，您现在知道所有这些选择器的特性都是相同的: `0,0,1,0`。因为它们都具有相同的显式权重、来源和特异性，所以最后一个匹配元素的元素将胜出。正在被“点击”或通过键盘等方式激活的未访问链接，由 `:link`, `Lfocus`, `:hover` 和 `:active` 这四个规则匹配，因此这四个规则中的最后一个将胜出。考虑到 LVFHA 的顺序，`:active` 将胜出，这可能是作者的本意。
+> 由于本章中的信息，您现在知道所有这些选择器的特性都是相同的: `0,0,1,0`。因为它们都具有相同的显式权重、来源和特异性，所以最后一个匹配元素的元素将胜出。正在被“点击”或通过键盘等方式激活的未访问链接，由 `:link`, `:focus`, `:hover` 和 `:active` 这四个规则匹配，因此这四个规则中的最后一个将胜出。考虑到 LVFHA 的顺序，`:active` 将胜出，这可能是作者的本意。
 
 Assume for a moment that you decide to ignore the common ordering and alphabetize your link styles instead. This would yield:
 
@@ -842,7 +842,7 @@ a:active {
 
 Such conflicts arise only when all the states attempt to set the same property. If each state’s styles address a different property, then the order does not matter. In the following case, the link styles could be given in any order and would still function as intended:
 
-> 只有当所有国家都试图设置相同的财产时，才会出现这种冲突。如果每个状态的样式处理不同的属性，则顺序无关紧要。在以下情况下，链接样式可以以任何顺序给出，并且仍然可以正常工作:
+> 只有当所有状态都试图设置为相同的属性时，才会出现这种冲突。如果每个状态的样式处理不同的属性，则顺序无关紧要。在以下情况下，链接样式可以以任何顺序给出，并且仍然可以正常工作:
 
 ```css
 a:link {
