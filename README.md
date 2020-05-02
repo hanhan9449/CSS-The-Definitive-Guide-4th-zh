@@ -4,7 +4,7 @@ CSS 权威指南第四版 中文翻译
 
 在线阅读：[http://gdut_yy.gitee.io/doc-csstdg4/](http://gdut_yy.gitee.io/doc-csstdg4/)
 
-<img src="./docs/cover.png" width=40%>
+<img src="./docs/cover.png" width=40% />
 
 ## 前言
 
@@ -75,6 +75,10 @@ npm run docs:dev
   </tr>
 </table>
 
+## 更多书籍
+
+[https://github.com/xx-zh/xx-zh-roadmap](https://github.com/xx-zh/xx-zh-roadmap)
+
 ## License
 
-[MIT](https://github.com/gdut-yy/CSS-The-Definitive-Guide-4th-zh/blob/master/LICENSE)
+[MIT](./LICENSE)
