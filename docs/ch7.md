@@ -323,11 +323,11 @@ p {
 } /* 'auto' left margin evaluates to 300px */
 ```
 
-In a sense, `auto` can be used to make up the difference between everything else and the required total. However, what if all three of these properties are set to `100px` and `none` of them are set to `auto`?
+In a sense, `auto` can be used to make up the difference between everything else and the required total. However, what if all three of these properties are set to `100px` and none of them are set to `auto`?
 
-> 从某种意义上说，“自动”可以用来弥补其他一切与所需总数之间的差异。但是，如果这三个属性都被设置为' 100px '，而' none '都被设置为' auto '呢?
+> 从某种意义上说，“自动”可以用来弥补其他一切与所需总数之间的差异。但是，如果这三个属性都被设置为' 100px '，而没有被设置为' auto '的呢?
 
-In the case where all three properties are set to something other than `auto`—or, in CSS terminology, when these formatting properties have been `overconstrained`—then `margin-right` is `always` forced to be `auto`. This means that if both margins and the width are set to `100px`, then the user agent will reset the right margin to `auto`. The right margin’s width will then be set according to the rule that one `auto` value “fills in” the distance needed to make the element’s overall width equal that of its containing block. Figure 7-11 shows the result of the following markup:
+In the case where all three properties are set to something other than `auto`—or, in CSS terminology, when these formatting properties have been overconstrained —then `margin-right` is always forced to be `auto`. This means that if both margins and the width are set to `100px`, then the user agent will reset the right margin to `auto`. The right margin’s width will then be set according to the rule that one `auto` value “fills in” the distance needed to make the element’s overall width equal that of its containing block. Figure 7-11 shows the result of the following markup:
 
 > 如果所有三个属性都被设置为“auto”以外的值，或者，用 CSS 术语来说，当这些格式化属性被“过度约束”时，那么“margin-right”总是被强制设置为“auto”。这意味着如果边距和宽度都设置为“100px”，那么用户代理将把右边的边距重置为“auto”。然后，根据“auto”值“填充”使元素的整体宽度等于其包含块的宽度所需的距离的规则来设置右边框的宽度。图 7-11 显示了以下标记的结果:
 
